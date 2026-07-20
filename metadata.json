@@ -1,0 +1,6 @@
+{
+  "name": "Menos Papel, Mais Digital",
+  "description": "Um site institucional moderno, responsivo e intuitivo focado em conscientizar pessoas e empresas sobre os benefícios ambientais e econômicos da transformação digital e redução do consumo de papel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

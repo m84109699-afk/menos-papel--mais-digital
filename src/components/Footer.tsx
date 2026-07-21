@@ -1,5 +1,5 @@
 import React from 'react';
-import { Leaf, Mail, Shield, BookOpen, Globe } from 'lucide-react';
+import { Leaf, Mail, Shield, BookOpen, Globe, Instagram } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -113,14 +113,23 @@ export default function Footer() {
                 <span className="text-slate-300">Iniciativa digital sustentável</span>
               </div>
             </div>
-            <div className="pt-4">
+            <div className="pt-4 space-y-3">
               <a
                 href="https://forms.gle/YxtzeC7oXfswTEFRA"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="inline-block text-sm font-semibold text-emerald-400 hover:text-emerald-300 transition-colors"
+                className="inline-flex items-center justify-center rounded-full bg-emerald-500 px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-emerald-500/20 hover:bg-emerald-400 transition-colors"
               >
                 Avalie este projeto
+              </a>
+              <a
+                href="https://www.instagram.com/menospapelmais?utm_source=qr&igsh=MnBidnd2MGhhZTRs"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="inline-flex items-center gap-2 rounded-full border border-slate-700 bg-slate-800 px-4 py-2 text-sm font-semibold text-slate-100 hover:border-emerald-400 hover:text-emerald-300 transition-colors"
+              >
+                <Instagram className="w-4 h-4 text-emerald-400" />
+                @menospapelmais
               </a>
             </div>
           </div>

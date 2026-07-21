@@ -113,6 +113,16 @@ export default function Footer() {
                 <span className="text-slate-300">Iniciativa digital sustentável</span>
               </div>
             </div>
+            <div className="pt-4">
+              <a
+                href="https://forms.gle/YxtzeC7oXfswTEFRA"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="inline-block text-sm font-semibold text-emerald-400 hover:text-emerald-300 transition-colors"
+              >
+                Avalie este projeto
+              </a>
+            </div>
           </div>
 
         </div>
